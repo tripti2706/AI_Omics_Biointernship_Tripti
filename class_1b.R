@@ -46,3 +46,7 @@ data$smoker_binary_labels <- factor(ifelse(data$smoker== "Yes", 1, 0),
 
 levels(data$smoker_binary)
 levels(data$smoker_binary_labels)
+
+# Save the cleaned dataset 
+write.csv(data, "clean_data/patient_info_clean.csv", row.names = FALSE)
+
