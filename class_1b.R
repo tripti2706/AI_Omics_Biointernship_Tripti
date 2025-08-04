@@ -50,3 +50,5 @@ levels(data$smoker_binary_labels)
 # Save the cleaned dataset 
 write.csv(data, "clean_data/patient_info_clean.csv", row.names = FALSE)
 
+save.image("TriptiKashyap_Class_1b.RData")
+
